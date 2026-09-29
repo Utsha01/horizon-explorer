@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#08141e" />
+    <title>Horizon Explorer</title>
+  </head>
+  <body>
+    <div id="game"></div>
+    <div id="hud">
+      <div class="brand"><span class="brand-mark">✦</span><span>HORIZON <b>EXPLORER</b></span></div>
+      <div class="stats"><span id="biome">VERDANT REACH</span><span id="distance">0.0 km</span><span id="speed">0 km/h</span></div>
+      <div class="crosshair">＋</div>
+      <div id="discovery" class="discovery hidden"><span>NEW DISCOVERY</span><strong id="discovery-name">Moonstone Arch</strong></div>
+      <div class="controls"><kbd>WASD</kbd> drive <kbd>SPACE</kbd> brake <kbd>F</kbd> photo mode <kbd>R</kbd> reset</div>
+    </div>
+    <div id="photo-ui" class="photo-ui hidden"><strong>PHOTO MODE</strong><span>Move with mouse · <kbd>F</kbd> to return</span><button id="capture">CAPTURE FRAME</button></div>
+    <div id="start-screen" class="screen"><div class="panel"><div class="eyebrow">A QUIET WORLD TO FIND</div><h1>Horizon<br><em>Explorer</em></h1><p>Leave the map behind. Follow the road, discover a living landscape, and make the journey yours.</p><button id="start">BEGIN JOURNEY <span>→</span></button><small>Best experienced with headphones</small></div></div>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
